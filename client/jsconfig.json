@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src", // Base directory for resolving non-relative module names
+    "paths": {
+      "@/*": ["*"] // Alias "@" to point to "src" directory
+    }
+  },
+  "include": ["src"], // Include all files in the "src" directory
+  "exclude": ["node_modules", "dist"] // Exclude these directories
+}
